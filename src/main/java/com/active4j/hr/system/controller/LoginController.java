@@ -166,7 +166,7 @@ public class LoginController {
 		} catch (Exception e) {
 			j.setSuccess(false);
 			j.setMsg("系统错误，请联系管理员");
-			log.error("系统错误，错误信息:{}", e);
+//			log.error("系统错误，错误信息:{}", e);
 		}
 
 		return j;
